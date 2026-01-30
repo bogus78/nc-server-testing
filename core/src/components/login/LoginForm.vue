@@ -48,9 +48,9 @@
 				<!-- the following div ensures that the spinner is always inside the #message div -->
 				<div style="clear: both;" />
 			</div>
-			<h3 class="login-form__heading" data-login-form-headline>
+			<div class="login-form__heading" data-login-form-headline>
 				{{ headlineText }}
-			</h3>
+			</div>
 			<NcTextField
 				id="user"
 				ref="user"
